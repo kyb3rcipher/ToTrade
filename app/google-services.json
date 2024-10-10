@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "899349204050",
+    "firebase_url": "https://durango-go-trade-cheesee-joel-default-rtdb.firebaseio.com",
+    "project_id": "durango-go-trade-cheesee-joel",
+    "storage_bucket": "durango-go-trade-cheesee-joel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899349204050:android:c929e87635ab73aaeb638b",
+        "android_client_info": {
+          "package_name": "com.kyb3rcipher.hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9-THoozOIAybbgMpEMOoswu20qHhglNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
