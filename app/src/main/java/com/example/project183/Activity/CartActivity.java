@@ -7,7 +7,6 @@ import android.view.View;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.project183.Adapter.CartAdapter;
-import com.example.project183.Helper.ChangeNumberItemsListener;
 import com.example.project183.Helper.ManagmentCart;
 import com.example.project183.databinding.ActivityCartBinding;
 
@@ -55,6 +54,6 @@ public class CartActivity extends BaseActivity {
     }
 
     private void setVariable() {
-        binding.backBtn.setOnClickListener(v -> startActivity(new Intent(CartActivity.this,MainActivity.class)));
+        binding.backBtn.setOnClickListener(v -> startActivity(new Intent(CartActivity.this, HomeActivity.class)));
     }
 }

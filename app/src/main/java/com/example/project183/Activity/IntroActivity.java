@@ -2,11 +2,7 @@ package com.example.project183.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.project183.R;
 import com.example.project183.databinding.ActivityIntroBinding;
 
 public class IntroActivity extends BaseActivity {
@@ -18,7 +14,7 @@ public class IntroActivity extends BaseActivity {
         binding=ActivityIntroBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.goBtn.setOnClickListener(v -> startActivity(new Intent(IntroActivity.this, MainActivity.class)));
+        binding.goBtn.setOnClickListener(v -> startActivity(new Intent(IntroActivity.this, HomeActivity.class)));
 
     }
 }
