@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "992175244131",
-    "project_id": "project183-c70d5",
-    "storage_bucket": "project183-c70d5.appspot.com"
+    "project_number": "830418183475",
+    "firebase_url": "https://go-trade-cheese-team-joel-default-rtdb.firebaseio.com",
+    "project_id": "go-trade-cheese-team-joel",
+    "storage_bucket": "go-trade-cheese-team-joel.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:992175244131:android:61ce763ad17dad0e818956",
+        "mobilesdk_app_id": "1:830418183475:android:0f1417460baaa8de10ca46",
         "android_client_info": {
           "package_name": "com.example.project183"
         }
@@ -15,7 +16,45 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCyZjoKjXsCLWVR0fHCirf_q6Q0GPYCvBA"
+          "current_key": "AIzaSyC1igIUQ1prIfUM0zPEV8FBW--VrgncbC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830418183475:android:3ea7f880666bd3d810ca46",
+        "android_client_info": {
+          "package_name": "com.kyb3r.gototrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1igIUQ1prIfUM0zPEV8FBW--VrgncbC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830418183475:android:73b76064e18cc85d10ca46",
+        "android_client_info": {
+          "package_name": "com.kyb3r.gotrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1igIUQ1prIfUM0zPEV8FBW--VrgncbC4"
         }
       ],
       "services": {
