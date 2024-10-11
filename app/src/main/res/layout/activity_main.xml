@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Welcome"
+                    android:text="@string/welcm"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alex Johnson"
+                    android:text="@string/name"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="@+id/textView"
@@ -101,7 +101,7 @@
                 android:drawableStart="@drawable/search_icon"
                 android:drawablePadding="8dp"
                 android:ems="10"
-                android:hint="What do you want eat today?"
+                android:hint="@string/question"
                 android:inputType="text"
                 android:padding="8dp"
                 android:textColor="@color/dark_blue"
