@@ -15,7 +15,7 @@
     <string name="tprice">Prix total :</string>
     <string name="welcm">Bienvenue</string>
     <string name="name">Juan Juarez</string>
-    <string name="question">Que vas-tu commander aujourd'hui ?</string>
-    <string name="pfl">Profil</string>
+    <string name="question">Que vas-tu commander aujourdhui ?</string>
+    <string name="pfl">Param</string>
     <string name="home">Accueil</string>
 </resources>
