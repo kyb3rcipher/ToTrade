@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">project183</string>
+    <string name="empty">Votre panier est vide</string>
+    <string name="cart">Panier</string>
+    <string name="resume">Résumé de votre commande</string>
+    <string name="sub">Sous-total</string>
+    <string name="delivery">Expédition</string>
+    <string name="tax">Taxe totale</string>
+    <string name="check">Commander</string>
+    <string name="detail">Détails</string>
+    <string name="rating">Évaluation</string>
+    <string name="add">Ajouter</string>
+    <string name="title">Titre</string>
+    <string name="tprice">Prix total :</string>
+    <string name="welcm">Bienvenue</string>
+    <string name="name">Juan Juarez</string>
+    <string name="question">Que vas-tu commander aujourd'hui ?</string>
+    <string name="pfl">Profil</string>
+    <string name="home">Accueil</string>
+</resources>
