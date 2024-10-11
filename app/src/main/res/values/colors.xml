@@ -11,6 +11,7 @@
     <color name="teal_700">#FF018786</color>
 
     <!-- Custom colors -->
+    <color name="background">#F6DCAC</color>
     <color name="dark_blue">#2E4058</color>
     <color name="red">#F75564</color>
     <color name="yellow">#FFEFDA</color>
