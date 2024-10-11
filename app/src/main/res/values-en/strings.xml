@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GOTRADE</string>
+    <string name="empty">Your cart is empty</string>
+    <string name="cart">Cart</string>
+    <string name="resume">Order Summary</string>
+    <string name="sub">Subtotal</string>
+    <string name="delivery">Shipping</string>
+    <string name="tax">Total Tax</string>
+    <string name="check">Checkout</string>
+    <string name="detail">Details</string>
+    <string name="rating">Rating</string>
+    <string name="add">Add</string>
+    <string name="title">Title</string>
+    <string name="tprice">Total Price:</string>
+    <string name="welcm">Welcome</string>
+    <string name="name">Juan Juarez</string>
+    <string name="question">What are you going to order today?</string>
+    <string name="pfl">Settings</string>
+    <string name="home">Home</string>
+</resources>
