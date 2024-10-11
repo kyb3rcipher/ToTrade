@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "830418183475",
+    "firebase_url": "https://go-trade-cheese-team-joel-default-rtdb.firebaseio.com",
+    "project_id": "go-trade-cheese-team-joel",
+    "storage_bucket": "go-trade-cheese-team-joel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830418183475:android:3ea7f880666bd3d810ca46",
+        "android_client_info": {
+          "package_name": "com.kyb3r.gototrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1igIUQ1prIfUM0zPEV8FBW--VrgncbC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830418183475:android:73b76064e18cc85d10ca46",
+        "android_client_info": {
+          "package_name": "com.kyb3r.gotrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1igIUQ1prIfUM0zPEV8FBW--VrgncbC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
