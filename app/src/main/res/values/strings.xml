@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">GOTRADE</string>
-    <string name="empty">Tu caarrito esta vacio</string>
+    <string name="empty">Tu carrito esta vacio</string>
     <string name="cart">Carrito</string>
     <string name="resume">Resumen de tu pedido</string>
     <string name="sub">Subtotal</string>
@@ -16,5 +16,5 @@
     <string name="name">Juan Juarez</string>
     <string name="question">¿Que vas a pedir hoy?</string>
     <string name="pfl">Ajustes</string>
-    <string name="home">Casa</string>
+    <string name="home">Inicio</string>
 </resources>
