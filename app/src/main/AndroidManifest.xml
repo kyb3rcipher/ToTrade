@@ -10,19 +10,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GoToTrade"
+        android:theme="@style/Theme.Project183"
         tools:targetApi="31">
         <activity
-            android:name=".Activity.HomeActivity"
+            android:name=".Activity.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.LoginActivity"
+            android:name=".Activity.ListFoodActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.RegisterActivity"
+            android:name=".Activity.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BaseActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

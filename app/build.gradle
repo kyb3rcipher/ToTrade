@@ -1,20 +1,20 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.androidApplication)
+    id 'com.google.gms.google-services'
 }
 
 android {
-    namespace 'com.kyb3r.gototrade'
+    namespace 'com.example.project183'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.kyb3r.gototrade"
+        applicationId "com.example.project183"
         minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -27,18 +27,21 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures{
+        viewBinding true
+    }
 }
 
 dependencies {
+
     implementation libs.appcompat
     implementation libs.material
-    implementation libs.firebase.auth
-    implementation libs.activity
     implementation libs.constraintlayout
-    testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
-    androidTestImplementation libs.espresso.core
-
-    // Navigation Bar
+    implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
+    implementation 'com.google.firebase:firebase-database:20.3.1'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+
+
 }
