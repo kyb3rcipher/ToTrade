@@ -1,5 +1,6 @@
 package com.kyb3r.gototrade.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -50,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     Toast.makeText(LoginActivity.this, "Authentication sucess.", Toast.LENGTH_SHORT).show();
+                                    goToHome();
                                 } else {
                                     Toast.makeText(LoginActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
                                 }
@@ -63,5 +65,11 @@ public class LoginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    private void goToHome() {
+        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

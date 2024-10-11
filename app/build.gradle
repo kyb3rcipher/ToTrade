@@ -30,7 +30,6 @@ android {
 }
 
 dependencies {
-
     implementation libs.appcompat
     implementation libs.material
     implementation libs.firebase.auth
@@ -39,4 +38,7 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+
+    // Navigation Bar
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
 }
